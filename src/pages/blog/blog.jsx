@@ -1,7 +1,8 @@
 const Blog = () => {
     return (
         <div className="Blog">
-            Mon Blog
+            <h2> BLOG</h2>
+            <p> Retrouvez ici quelques articles sur le développement web.</p>
         </div>
     );
 }

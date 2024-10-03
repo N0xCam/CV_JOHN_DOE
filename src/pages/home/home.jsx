@@ -1,20 +1,18 @@
-const Home = () => {
 
-    
-    
+
+const Home = () => {
 
     return (
         
         <div className="home">
            
-           <header id="HeaderHome">
-            <img src="./src/assets/header-me.png" alt="my picture" id="background"></img>
-            <h1 className="Hello"> Bonjour, je suis John Doe</h1>
-            <h2 className="Job"> Développeur web full stack</h2>
+           <header id="Introduction">
+            <h1 id="Hello"> Bonjour, je suis John Doe</h1>
+            <h2 id="Job"> Développeur web full stack</h2>
             <button className="button"> En savoir plus </button>
             </header>
 
-            <section id="SectionHome">
+            <section id="Presentation">
                 <h2> À propos </h2>
                 <article className="mypresentation">
                 Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'intégrateur-développeur web au CEF. Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du développement web.
@@ -25,10 +23,10 @@ const Home = () => {
 
                 </article>
 
-                <img src="./src/assets/home-me.jpg" alt="me"></img>
+                <img src="./src/assets/home-presentation.jpg" alt="me"></img>
                 <article>
                     <h3> Mes compétences </h3>
-                    <img src="./src/assets/home-skills.png" alt="my picture"></img>
+                    <img src="./src/assets/home-skills.png" alt="my skills"></img>
                 </article>
             </section>
         </div>

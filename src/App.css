@@ -50,9 +50,7 @@
   flex-direction: column;
 }
 
-#background {
-  background-image: url(./assets/header-me.png)
-}
+
 
 .mypresentation {
   font-size: 2em;

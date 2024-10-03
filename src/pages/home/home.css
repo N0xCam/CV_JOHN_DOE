@@ -1,0 +1,151 @@
+a {
+    color:white;
+}
+
+li {
+  text-transform:uppercase;
+  margin-left: 2em;
+  width: 4em;
+}
+
+.navbar {
+  padding-left: 20px;
+  height: 5rem;
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+#navigation {
+  background-color : black;
+ 
+}
+
+.navbar-toggler {
+  padding-left: 20px;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+}
+
+
+.nav-link {
+  padding-left: 0.5rem;
+  color: #797373;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.nav-link:focus {
+  color: white;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+#Introduction {
+    background-image: url(/src/assets/header-me.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50em;  
+}
+
+#Hello {
+    color:white;
+    font-size: 7em;
+    text-decoration: bold;
+}
+
+#Job {
+    color:white;
+    font-size : 3em;
+}
+   
+@media (min-width: 992px) {
+    .navmarge {
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+  }
+  
+  @media (min-width: 400px) {
+    .navmarge {
+      padding-left: 5em;
+      padding-right: 5em; 
+    }
+    #Name {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-right: 13em;
+    }
+
+    address {
+      text-transform: none;
+      font-weight: bold;
+      color:#444;
+    }
+
+    #github {
+      display: flex;
+      height: 2em;
+    }
+
+    #X {
+      display: flex;
+      height: 2em;
+    }
+
+    #linkedin {
+      display: flex;
+      height: 2em;
+    }
+
+    #medias {
+      display: flex;
+
+    }
+    
+   
+  }
+
+  @media (min-width: 992px) {
+    #Introduction {
+      background-image: url("/src/assets/home-me.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      text-align: center;
+      color: white;
+    }
+  }
+  
+  /* tablette */
+  @media (min-width: 768px) {
+    #Presentation {
+      border-radius: 1%;
+      margin: 60px 60px;
+      padding-bottom: 60px;
+
+    }
+    #Introduction {
+      background-image: url("/src/assets/home-me.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      text-align: center;
+      color: white;
+    }
+}
