@@ -7,11 +7,10 @@ const Header = () => {
   const position = useLocation();
   return (
 
-
     <div id="navigation">
     <nav className="navbar navbar-expand-lg">
     <div className="container-fluid navmarge">
-      <Link className="navbar-brand" to="/">
+      <Link className="brand" to="/">
         JOHN DOE
       </Link>
       <button
@@ -23,7 +22,7 @@ const Header = () => {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <i className="fa-solid fa-bars" style={{ color: "#ffffff" }}></i>
+        <i className="fa-solid fa-bars" style={{ color: "#AAAAAA" }}></i>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav  ms-auto">
@@ -37,6 +36,7 @@ const Header = () => {
     </div>
     </nav>
     </div>
+
   );
 }
 

@@ -1,6 +1,7 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import 'bootstrap/scss/bootstrap.scss';
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import MyHome from "./pages/home/myhome"
 import MyBlog from "./pages/blog/Myblog"
