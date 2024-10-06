@@ -1,0 +1,153 @@
+/* For All devices */
+
+/* Mobile */
+@media (max-width: 768px) {
+
+#fond {
+    height: 15vh;
+}
+
+h2 {
+    padding-top: 3vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-size: 3vh;
+    display: flex;
+    justify-content: center; 
+}
+
+h3 {
+    padding-top: 1vh;
+    font-size: 1.7vh;
+    display: flex;
+    justify-content: center; 
+    padding-bottom: 2vh;
+}
+
+.btn {
+    background-color: white;
+    color: blue;
+    width: 3vh;
+}
+
+.card {
+
+    display: flex;
+    align-items: center;
+}
+
+
+.realisations {
+  width: 30rem;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-top-width: 0px;
+  border-top-style: solid;
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
+  display: flex;
+  align-items: center;
+}
+
+/*Tablette*/
+@media (min-width: 700px) {
+
+    #fond {
+        height: 10vh;
+    }
+    
+    h2 {
+        padding-top: 3vh;
+        margin-right: 1vh;
+        font-size: 3vh;
+        display: flex;
+        justify-content: center; 
+    }
+    
+    h3 {
+        padding-top: 1vh;
+        font-size: 1.7vh;
+        display: flex;
+        justify-content: center; 
+        padding-bottom: 2vh;
+    }
+    
+    .btn {
+        background-color: white;
+        color: blue;
+        width: 3vh;
+    }
+    
+    .card {
+    
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    .realisations {
+      width: 30rem;
+      padding-left: 0px;
+      padding-right: 0px;
+      border-top-width: 0px;
+      border-top-style: solid;
+      border-bottom-width: 0px;
+      border-bottom-style: solid;
+      display: flex;
+      align-items: center;
+    }
+
+}
+    
+/*Desktop*/
+@media (min-width: 1200px) {
+
+    #fond {
+        height: 4vh;
+    }
+    
+    h2 {
+        padding-top: 3vh;
+        margin-right: 1vh;
+        font-size: 5vh;
+        display: flex;
+        justify-content: center; 
+    }
+    
+    h3 {
+        padding-top: 1vh;
+        font-size: 3vh;
+        display: flex;
+        justify-content: center; 
+        padding-bottom: 2vh;
+    }
+    
+    .btn {
+        background-color: white;
+        color: blue;
+        width: 1vh;
+    }
+    
+    .card {
+    
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    .realisations {
+      width: 30rem;
+      padding-left: 0px;
+      padding-right: 0px;
+      border-top-width: 0px;
+      border-top-style: solid;
+      border-bottom-width: 0px;
+      border-bottom-style: solid;
+      display: flex;
+      flex-direction: row;
+    }
+
+}
+
+
+}
