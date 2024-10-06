@@ -1,7 +1,6 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -50,9 +49,7 @@
   flex-direction: column;
 }
 
-#background {
-  background-image: url(./assets/header-me.png)
-}
+
 
 .mypresentation {
   font-size: 2em;
