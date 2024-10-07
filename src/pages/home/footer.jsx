@@ -5,7 +5,7 @@ import "./home.css";
 const Footer = () => {
 return (
 
-<div>
+<div id="footer">
 <h2 id="Name"> John Doe</h2>
 <address> 
 <em>40 Rue Laure Diebold </em> 

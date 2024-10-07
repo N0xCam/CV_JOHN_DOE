@@ -1,369 +1,162 @@
 /* For All devices */
+
+/* Header */
 * {
   font-family: "nunitoSans",sans-serif;
+  width: 100;
 }
 
-a {
-  color:white;
-  padding-left: 1.2em;
+#navbar {
+  background-color: #1e1e1e ;
+  height: 10vh;
 }
 
-li {
-text-transform:uppercase;
-width: 4em;
-}
-
-
-nav {
-  background-color: #1e1e1e;
-}
-
-.navbar-toggler {
-  padding-right: 20px;
-  height: 20rem;
-  width: 20rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #ffffff;
-}
-
-.navbar-toggler:focus {
-  box-shadow: #ffffff 0px 0px 0px 3px;
-}
-
-.navbar-brand {
-  text-transform: uppercase;
-  font-weight: 600;
+#brand {
   color: white;
+  font-size: 4vh;
+  font-weight: bold;
+  padding-right: 10vh;
+  padding-top: 1vh;
 }
 
-.nav-link:not(:focus) {
-  color: #797373; 
-}
-
-.fa-solid {
-  padding-left: 0.5rem;
-  color: #ffffff;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-.nav-link:focus {
-  color: white;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  font-weight: 600;
-  text-decoration: none;
-}
+/* Home */
 
 #Introduction {
-  
+  background-image: url("./src/assets/home-me.png");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
-  position: relative;
-  overflow: hidden;
-  padding-bottom: 60px;
+  height: 200vh;
 }
+
+/* Footer */
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 2em;
+}
+
+#Name {
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+#github {
+  width: 10px;
+}
+
+#X {
+  width: 10px;
+}
+
+#linkedin {
+  width: 10px;
+}
+
 
 /* Mobile */
-@media (max-width: 768px) {
-
-  html {
-    justify-content: center;
+@media (min-width: 576px) {
+.me-auto {
+  text-transform: uppercase;
 }
-
-* {
-    width: 110vw;
-}
-
-  #navigation {
-    background-color: #1e1e1e ;
-    height: 20vw;
-    width: 100%;
-  }
-
-  .navbar-toggler {
-    height: 2vh;
-    width: 2vh;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    color: rgb(255, 255, 255);
-  }
-
-  .brand {
-    display: flex;
-    margin-top: 1vh;
-    margin-left: 0.1vh;
-    font-size: 3vh;
-  }
-
-  #Introduction {
-    background-image: url("/src/assets/home-me.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vw;
-  }
-  
-  #Hello {
-    color:white;
-    display:flex;
-    margin-top: 30vh;
-    justify-content:center;
-    font-size: 6vh;
-
-  }
-
-  #Job {
-    display: flex;
-    color:white;
-    display:flex;
-    margin-top: 3vh;
-    justify-content:center;
-    font-size: 3vh;
-    font-size: bold;
-  }
-
-}
-
-  .button {
-    display: flex;
-    justify-content: center;
-    width: 18vh;
-    height: 5vh;
-    font-size: 2vh;
-    background-color:dodgerblue;
-    color: white;
-    font-size: bold;
-}
-
-  #bouton {
-    display: flex;
-    justify-content: center;
-  }
-
-  .mypresentation {
-    font-size: 2.2vh;
-    margin-left: 2vh;
-    
-  }
-
-  #about {
-    font-size: 4vh;
-    font-weight: 200;
-    display: flex;
-    margin-left: 2vh;
-    padding-top: 5vh;
-    border-bottom:solid green;
-    border-bottom: green;
-    ;
-  }
-
-  #skills {
-    width: 40vh;
-    display: flex;
-  }
-
-/*Tablette*/
-@media (max-width: 992px) {
-
-html {
-  justify-content: center;
-}
-
-* {
-  width: 110vw;
-}
-
-#navigation {
-  background-color: #1e1e1e ;
-  height: 20vw;
+.link {
+  background-color: #1e1e1e;
   width: 100%;
+  color:#444
 }
 
-.navbar-toggler {
-  height: 2vh;
-  width: 2vh;
-  display: flex;
-  align-items: center;
-  justify-content: right;
-  color: rgb(255, 255, 255);
-}
-
-.brand {
-  display: flex;
-  margin-top: 1vh;
-  margin-left: 0.1vh;
-  font-size: 3vh;
-}
-
-#Introduction {
-  background-image: url("/src/assets/home-me.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 180vw;
-}
-
-#Hello {
+.link:hover {
   color:white;
-  display:flex;
-  margin-top: 30vh;
-  justify-content:center;
-  font-size: 6vh;
-
 }
 
-#Job {
-  display: flex;
-  color:white;
-  display:flex;
-  margin-top: 3vh;
-  justify-content:center;
-  font-size: 3vh;
-  font-size: bold;
-}
+/* Home */
 
-
-.button {
-  display: flex;
-  justify-content: center;
-  width: 18vh;
-  height: 5vh;
-  font-size: 2vh;
-  background-color:dodgerblue;
+#hello {
+  font-size: 50vh;
   color: white;
-  font-size: bold;
 }
 
-#bouton {
-  display: flex;
-  justify-content: center;
+#job {
+  color: white;
 }
 
-.mypresentation {
-  font-size: 2.2vh;
-  margin-left: 2vh;
-
-  
+#btn {
+  background-color: #0d6efd;
 }
 
+p {
+  font-size: 6vh;
+  margin-left: 20vh;
+}
 
-
-#about {
-  font-size: 4vh;
-  font-weight: 200;
-  display: flex;
-  margin-left: 2vh;
-  padding-top: 5vh;
-  border-bottom:solid green;
-  border-bottom: green;
-  
+#me-home {
+  width: 1vh;
 }
 
 #skills {
-  width: 40vh;
-  display: flex;
+  width: 2vh;
 }
+
 }
+
+/* Footer */
+
+
+
+/*Tablette*/
+
+/* Header */
+
+@media (max-width: 768px) {
+  .me-auto {
+    text-transform: uppercase;
+  }
+  .link {
+    background-color: #1e1e1e;
+    width: 100%;
+    color:#444
+  }
+  
+  .link:hover {
+    color:white;
+  }
+
+/* Home */
+
+
+
+/* Footer */
+
+}
+
+
 
 /*Desktop*/
-@media (min-width: 993px) {
 
-  html {
-    justify-content: center;
-  }
-  
-  * {
-    width: 110vw;
-  }
-  
-  #navigation {
-    background-color: #1e1e1e ;
-    height: 10vw;
-    width: 100%;
-  }
-  
- 
-  
-  .brand {
+/* Header */
+
+@media (min-width: 992px) {
+
+  #me-auto {
+    width: 80vh;
     display: flex;
-    margin-top: 1vh;
-    margin-left: 0.1vh;
-    font-size: 2vh;
-  }
-  
-  #Introduction {
-    background-image: url("/src/assets/home-me.png");
-    background-repeat: no-repeat;
-    height: 70vw;
-  }
-  
-  #Hello {
-    color:white;
-    display:flex;
-    margin-top: 15vh;
-    justify-content:center;
-    font-size: 4vh;
-  
-  }
-  
-  #Job {
-    display: flex;
-    color:white;
-    display:flex;
-    margin-top: 3vh;
-    justify-content:center;
-    font-size: 2vh;
-    font-size: bold;
-  }
-  
-  
-  .button {
-    display: flex;
-    justify-content: center;
-    width: 10vh;
-    height: 2vh;
-    font-size: 1vh;
-    background-color:dodgerblue;
-    color: white;
-    font-size: bold;
-  }
-  
-  #bouton {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .mypresentation {
-    font-size: 2.2vh;
-    margin-left: 2vh;
+    align-content: flex-end;
   }
 
-  #Presentation {
+  .link {
+    font-size: 2vh;
     display: flex;
-    flex-direction: row;
-  }
-  
-  #about {
-    font-size: 3vh;
-    font-weight: 200;
-    display: flex;
-    margin-left: 5vh;
-    padding-top: 5vh;
-    border-bottom:solid green;
-    border-bottom: green;
-    
-  }
-  
-  p {
-    display:flex;
     flex-direction: column;
+    justify-content: space-evenly;
+
   }
-  #skills {
-    width: 40vh;
-    display: flex;
+
+  .link:hover {
+    color: white;
   }
-  }
+
+/* Home */
+
+/* Footer */
+}
