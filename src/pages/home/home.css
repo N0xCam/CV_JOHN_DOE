@@ -39,7 +39,7 @@ nav {
 }
 
 .nav-link:not(:focus) {
-  color: #797373; /* Change this to the color you want */
+  color: #797373; 
 }
 
 .fa-solid {
@@ -105,7 +105,7 @@ nav {
     background-image: url("/src/assets/home-me.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 180vw;
+    height: 100vw;
   }
   
   #Hello {
@@ -361,7 +361,6 @@ html {
   p {
     display:flex;
     flex-direction: column;
-    paddi
   }
   #skills {
     width: 40vh;
