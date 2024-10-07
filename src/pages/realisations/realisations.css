@@ -1,7 +1,7 @@
 /* For All devices */
 
 /* Mobile */
-@media (max-width: 768px) {
+@media (min-width: 400px) {
 
 #fond {
     height: 15vh;
@@ -36,6 +36,13 @@ h3 {
     align-items: center;
 }
 
+.Card.title {
+    font-size: 30vh;
+}
+
+.card.text {
+    font-size: 2vh;
+}
 
 .realisations {
   width: 30rem;
@@ -97,6 +104,21 @@ h3 {
       align-items: center;
     }
 
+
+.btn {
+        background-color: white;
+        color: blue;
+        width: 3vh;
+    }
+
+    #realisations {
+        display: flex;
+        flex-direction: row;
+        
+       
+    }
+    }
+
 }
     
 /*Desktop*/
@@ -108,44 +130,44 @@ h3 {
     
     h2 {
         padding-top: 3vh;
-        margin-right: 1vh;
-        font-size: 5vh;
-        display: flex;
-        justify-content: center; 
     }
     
     h3 {
-        padding-top: 1vh;
         font-size: 3vh;
-        display: flex;
-        justify-content: center; 
-        padding-bottom: 2vh;
     }
     
+    #title {
+        display: flex;
+        align-items: center;
+    }
+
     .btn {
         background-color: white;
         color: blue;
-        width: 1vh;
+        width: 3vh;
     }
     
     .card {
     
         display: flex;
         align-items: center;
+        padding-left: 2vh;
+        width: 17vh;
+        
     }
-    
-    
-    .realisations {
-      width: 30rem;
-      padding-left: 0px;
-      padding-right: 0px;
-      border-top-width: 0px;
-      border-top-style: solid;
-      border-bottom-width: 0px;
-      border-bottom-style: solid;
-      display: flex;
-      flex-direction: row;
+
+    .Card.title {
+        font-size: 30vh;
     }
+
+    .card.text {
+        font-size: 2vh;
+    }
+
+#realisations {
+    display: flex;
+    flex-direction: row;
+}
 
 }
 

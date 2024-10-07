@@ -8,16 +8,21 @@ const Realisations = () => {
         <div className="Realisations">
             <img src="/src/assets/realisations/background.jpg" alt="fond" id="fond"></img>
 
+        <div id="title">
         <h2> PORTFOLIO</h2>
         <h3> Voici quelques-unes de mes réalisations.</h3>
-    
-    
-  <Card style={{ width: '30rem' }} className='card'>
+        </div>
+
+      <div id="realisations">
+      <div className='card'>
+      <Card style={{ width: '20rem' }}>
       <Card.Img variant="top" src="/src/assets/realisations/fresh-food.png" className='realisations'/>
       <Card.Body>
-        <Card.Title>Fresh Food</Card.Title>
+        <Card.Title className='card.title'>Fresh Food</Card.Title>
         <Card.Text>
+        <div className="card.text">
           Réalisation d'un site avec commande en ligne.
+        </div>
         </Card.Text>
         <Button variant="primary" className='btn'>Voir</Button>
         <Card.Text>
@@ -25,13 +30,17 @@ const Realisations = () => {
         </Card.Text>
       </Card.Body>
     </Card>
+    </div>
 
-    <Card style={{ width: '30rem' }} className='card'>
+    <div className='card'>
+    <Card style={{ width: '20rem' }}>
       <Card.Img variant="top" src="/src/assets/realisations/restaurant-akira.png" className='realisations' />
       <Card.Body>
-        <Card.Title>Restaurant Akira</Card.Title>
+        <Card.Title className='card.title'>Restaurant Akira</Card.Title>
         <Card.Text>
+        <div className="card.text">
          Réalisation d'un site vitrine.
+         </div>
         </Card.Text>
         <Button variant="primary">Voir</Button>
         <Card.Text>
@@ -39,13 +48,17 @@ const Realisations = () => {
         </Card.Text>
       </Card.Body>
     </Card>
+    </div>
 
-    <Card style={{ width: '30rem' }} className='card'>
+    <div className='card'>
+    <Card style={{ width: '20rem' }}>
       <Card.Img variant="top" src="/src/assets/realisations/bien-etre.png" className='realisations' />
       <Card.Body>
-        <Card.Title>Espace bien-être</Card.Title>
+        <Card.Title className='Card.title'>Espace bien-être</Card.Title>
         <Card.Text>
+          <div className="card.text">
           Réalisation d'un site vitrine pour un patricien de bien-être.
+          </div>
         </Card.Text>
         <Button variant="primary">Voir</Button>
         <Card.Text>
@@ -53,6 +66,8 @@ const Realisations = () => {
         </Card.Text>
       </Card.Body>
     </Card>
+    </div>
+    </div>
     </div>
   );
 }
