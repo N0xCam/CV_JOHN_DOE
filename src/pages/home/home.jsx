@@ -15,6 +15,7 @@ const Home = () => {
             </header>
 
             <section id="Presentation">
+                <div id="col-first">
                 <h2 id="about"> À propos </h2>
                 <ProgressBar variant="info" now={80} />
                 <article className="mypresentation">
@@ -25,24 +26,27 @@ const Home = () => {
                 <p>J'accorde une attention particulière à la qualité du code que j'écris et je respecte les bonnes pratiques du web.</p>
 
                 </article>
+                </div>
 
+                <div id="col-second">
                 <img src="./src/assets/home-presentation.jpg" alt="me" id="me-home"></img>
                 <article>
-                    <h3> Mes compétences </h3>
+                    <h3 id="skills-title"> Mes compétences </h3>
 
                 <div id="skills">
-                    <div> HTML 90%</div>
+                    <div className='pourcent'> HTML 90%</div>
                     <ProgressBar variant="danger" now={90} />
-                    <div> CSS3 80%</div>
+                    <div className='pourcent'> CSS3 80%</div>
                     <ProgressBar variant="info" now={80} />
-                    <div> JAVASCRIPT 70%</div>
+                    <div className='pourcent'> JAVASCRIPT 70%</div>
                     <ProgressBar variant="warning" now={70} />
-                    <div> PHP 60%</div>
+                    <div className='pourcent'> PHP 60%</div>
                     <ProgressBar variant="success" now={60} />
-                    <div> REACT 50%</div>
+                    <div className='pourcent'> REACT 50%</div>
                     <ProgressBar variant="primary" now={50} />
                 </div>
                 </article>
+                </div>
             </section>
         </div>
     );
