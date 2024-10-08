@@ -1,44 +1,29 @@
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import "../home/home.css";
-import React from "react";
 
-import {Link, useLocation} from "react-router-dom";
 
-const Header = () => {
-  const position = useLocation();
+function Header() {
   return (
-
-    <div id="navigation">
-    <nav className="navbar navbar-expand-lg">
-    <div className="container-fluid navmarge">
-      <Link className="brand" to="/">
-        JOHN DOE
-      </Link>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <i className="fa-solid fa-bars" style={{ color: "#AAAAAA" }}></i>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav  ms-auto">
-          <li className="active"><a href="./src/pages/home.jsx">Accueil</a></li>
-          <li><a href="./src/pages/realisations.jsx">Réalisations</a></li>
-          <li><a href="./src/pages/blog.jsx">Blog</a></li>
-          <li><a href="./src/pages/services.jsx">Mes services</a></li>
-          <li><a href="./src/pages/contact.jsx">Me contacter</a></li>
-        </ul>
-      </div>
+    <div id="navbar">
+    <Navbar expand="lg" className="navbar">
+      <Container>
+        <Navbar.Brand href="#home" id="brand">JOHN DOE</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" id="toggle" />
+        <Navbar.Collapse id="basic">
+          <Nav className="me-auto">
+            <Nav.Link href="./pages/home/myhome.jsx" className='link'>accueil</Nav.Link>
+            <Nav.Link href="./pages/realisations/services.jsx" className='link'>services</Nav.Link>
+            <Nav.Link href="./pages/realisations/realisations.jsx" className='link'>réalisations</Nav.Link>
+            <Nav.Link href="./pages/realisations/blog.jsx" className='link'>blog</Nav.Link>
+            <Nav.Link href="./pages/realisations/contact.jsx" className='link'>me contacter</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
     </div>
-    </nav>
-    </div>
-
   );
 }
-
 
 export default Header;

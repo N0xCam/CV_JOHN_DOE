@@ -1,17 +1,16 @@
 import Header from "../home/header";
-import Blog from "./blog";
+import Main from "../mentions/main";
 import Footer from "../home/footer";
 
-function MyBlog () {
-
-        return (
+function Mentions () {
+    return (
         <>
-        
         <Header/>
-        <Blog/>
+        <Main/>
         <Footer/>
+        
         </>
-);
+    );
 }
 
-export default MyBlog;
+export default Mentions;

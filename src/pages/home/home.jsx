@@ -1,4 +1,4 @@
-
+import ProgressBar from 'react-bootstrap/ProgressBar';
 
 const Home = () => {
 
@@ -7,15 +7,17 @@ const Home = () => {
         <div className="home">
            
            <header id="Introduction">
-            <h2 id="Hello"> Bonjour, je suis John Doe</h2>
-            <h2 id="Job"> Développeur web full stack</h2>
-            <div id="bouton">
+            <h2 id="hello"> Bonjour, je suis John Doe</h2>
+            <h2 id="job"> Développeur web full stack</h2>
+            <div id="btn">
             <button className="button"> En savoir plus </button>
             </div>
             </header>
 
             <section id="Presentation">
+                <div id="col-first">
                 <h2 id="about"> À propos </h2>
+                <ProgressBar variant="info" now={80} />
                 <article className="mypresentation">
                 <p>Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d' <strong>intégrateur-développeur web </strong>au CEF. Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du <strong>développement web</strong>. </p>
 
@@ -24,16 +26,33 @@ const Home = () => {
                 <p>J'accorde une attention particulière à la qualité du code que j'écris et je respecte les bonnes pratiques du web.</p>
 
                 </article>
+                </div>
 
-                <img src="./src/assets/home-presentation.jpg" alt="me"></img>
+                <div id="col-second">
+                <img src="./src/assets/home-presentation.jpg" alt="me" id="me-home"></img>
                 <article>
-                    <h3> Mes compétences </h3>
-                    <img src="./src/assets/home-skills.png" alt="my skills" id="skills"></img>
+                    <h3 id="skills-title"> Mes compétences </h3>
+
+                <div id="skills">
+                    <div className='pourcent'> HTML 90%</div>
+                    <ProgressBar variant="danger" now={90} />
+                    <div className='pourcent'> CSS3 80%</div>
+                    <ProgressBar variant="info" now={80} />
+                    <div className='pourcent'> JAVASCRIPT 70%</div>
+                    <ProgressBar variant="warning" now={70} />
+                    <div className='pourcent'> PHP 60%</div>
+                    <ProgressBar variant="success" now={60} />
+                    <div className='pourcent'> REACT 50%</div>
+                    <ProgressBar variant="primary" now={50} />
+                </div>
                 </article>
+                </div>
             </section>
         </div>
     );
 }
+
+
 
 
 

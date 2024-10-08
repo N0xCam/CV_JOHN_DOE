@@ -5,7 +5,7 @@ import "./home.css";
 const Footer = () => {
 return (
 
-<div>
+<div id="footer">
 <h2 id="Name"> John Doe</h2>
 <address> 
 <em>40 Rue Laure Diebold </em> 
@@ -13,10 +13,10 @@ return (
 <em> Téléphone : 06 20 30 40 50 </em>
 </address>
 
-<div id="medias">
-    <a href="https://github.com/github-john-doe" id="github"><img src="./src/assets/github_logo.png"></img></a>
-    <a href="https://x.com/?lang=fr" id="X"><img src="./src/assets/footer_X.png"></img></a>
-    <a href="https://fr.linkedin.com/" id="linkedin"><img src="./src/assets/footer_LINKEDin.png"></img></a>
+<div>
+    <a href="https://github.com/github-john-doe" className="medias"><img src="./src/assets/github_logo.png"></img></a>
+    <a href="https://x.com/?lang=fr" className="medias"><img src="./src/assets/footer_X.png"></img></a>
+    <a href="https://fr.linkedin.com/" className="medias"><img src="./src/assets/footer_LINKEDin.png"></img></a>
 
 </div>
 
