@@ -11,33 +11,37 @@ h2 {
     padding-top: 3vh;
     margin-left: 1vh;
     margin-right: 1vh;
-    font-size: 3vh;
+    font-size: 3.5vh;
+    font-weight:510;
     display: flex;
     justify-content: center; 
 }
 
 h3 {
     padding-top: 1vh;
-    font-size: 1.7vh;
+    font-size: 2.5vh;
     display: flex;
     justify-content: center; 
     padding-bottom: 2vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
 }
 
 .btn {
     background-color: white;
-    color: blue;
-    width: 3vh;
+    color: #0d6efd;
+    width: 6vh;
 }
 
 .card {
-
     display: flex;
     align-items: center;
+    width: 65vh;
 }
 
 .Card.title {
-    font-size: 30vh;
+    font-size: 60vh;
+    font-weight: bold;
 }
 
 .card.text {
@@ -54,6 +58,11 @@ h3 {
   border-bottom-style: solid;
   display: flex;
   align-items: center;
+}
+
+.border {
+    border: solid 2em;
+    border-width: 2em;
 }
 
 /*Tablette*/

@@ -68,7 +68,9 @@ nav {
   padding-bottom: 60px;
 }
 
+/* /*
 /* Mobile */
+/* */
 @media (max-width: 768px) {
 
   html {
@@ -78,6 +80,8 @@ nav {
 * {
     width: 110vw;
 }
+
+/* header */
 
   #navigation {
     background-color: #1e1e1e ;
@@ -100,6 +104,8 @@ nav {
     margin-left: 0.1vh;
     font-size: 3vh;
   }
+
+/* Main */
 
   #Introduction {
     background-image: url("/src/assets/home-me.png");
@@ -159,13 +165,35 @@ nav {
     padding-top: 5vh;
     border-bottom:solid green;
     border-bottom: green;
-    ;
   }
 
   #skills {
     width: 40vh;
     display: flex;
   }
+
+/* Footer */
+
+#footer{
+  display: flex;
+  flex-direction: column;
+}
+
+#Name {
+  font-weight: bold;
+  display: flex;
+}
+
+#em {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  height: 10vh;
+  width: 10vh;
+}
+
 
 /*Tablette*/
 @media (max-width: 992px) {

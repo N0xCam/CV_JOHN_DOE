@@ -15,7 +15,7 @@ const Realisations = () => {
 
       <div id="realisations">
       <div className='card'>
-      <Card style={{ width: '20rem' }}>
+      <Card style={{ width: '30rem' }}>
       <Card.Img variant="top" src="/src/assets/realisations/fresh-food.png" className='realisations'/>
       <Card.Body>
         <Card.Title className='card.title'>Fresh Food</Card.Title>
@@ -33,7 +33,7 @@ const Realisations = () => {
     </div>
 
     <div className='card'>
-    <Card style={{ width: '20rem' }}>
+    <Card style={{ width: '30rem' }}>
       <Card.Img variant="top" src="/src/assets/realisations/restaurant-akira.png" className='realisations' />
       <Card.Body>
         <Card.Title className='card.title'>Restaurant Akira</Card.Title>
@@ -51,7 +51,7 @@ const Realisations = () => {
     </div>
 
     <div className='card'>
-    <Card style={{ width: '20rem' }}>
+    <Card style={{ width: '30rem' }}>
       <Card.Img variant="top" src="/src/assets/realisations/bien-etre.png" className='realisations' />
       <Card.Body>
         <Card.Title className='Card.title'>Espace bien-être</Card.Title>

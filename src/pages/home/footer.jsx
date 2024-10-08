@@ -1,11 +1,12 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import "./home.css";
 
 
 const Footer = () => {
 return (
 
-<div>
+<div id="footer">
 <h2 id="Name"> John Doe</h2>
 <address> 
 <em>40 Rue Laure Diebold </em> 
@@ -14,17 +15,15 @@ return (
 </address>
 
 <div id="medias">
-    <a href="https://github.com/github-john-doe" id="github"><img src="./src/assets/github_logo.png"></img></a>
-    <a href="https://x.com/?lang=fr" id="X"><img src="./src/assets/footer_X.png"></img></a>
-    <a href="https://fr.linkedin.com/" id="linkedin"><img src="./src/assets/footer_LINKEDin.png"></img></a>
+    <a href="https://github.com/github-john-doe" ><img src="./src/assets/github_logo.png" className="logo"></img></a>
+    <a href="https://x.com/?lang=fr"><img src="./src/assets/footer_X.png" className="logo"></img></a>
+    <a href="https://fr.linkedin.com/" id="linkedin"><img src="./src/assets/footer_LINKEDin.png" className="logo"></img></a>
 
 </div>
 
-
-
 <h2> Liens utiles</h2>
-<ul>
-    <li> Accueil </li>
+<ul>  <i className="fa-solid fa-chevron-right" style={{ color: "#0d6efd " }}>
+    Accueil </i>
     <li> À propos </li>
     <li> Services </li>
     <li> Me contacter </li>
