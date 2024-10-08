@@ -4,7 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import 'bootstrap/scss/bootstrap.scss';
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import MyHome from "./pages/home/myhome"
-import MyBlog from "./pages/blog/Myblog"
+import Blog from "./pages/blog/blog"
 import Contact from "./pages/contact/contact"
 import Realisations from "./pages/realisations/realisations"
 import Services from "./pages/realisations/realisations"
@@ -19,7 +19,7 @@ function App() {
       <BrowserRouter>
       <Routes>
       <Route path="/" element={<MyHome />} />
-      <Route path="/blog" element={<MyBlog />} />
+      <Route path="/blog" element={<Blog />} />
       <Route path="/contact" element={<Contact/>} />
       <Route path="/realisations" element={<Realisations />} />
       <Route path="/services" element={<Services />} />

@@ -69,12 +69,13 @@ h3 {
 @media (min-width: 700px) {
 
     #fond {
-        height: 10vh;
+        height: 40vh;
+        width: 200vh;
     }
     
     h2 {
-        padding-top: 3vh;
-        margin-right: 1vh;
+        padding-top: 5vh;
+        margin-right: 2vh;
         font-size: 3vh;
         display: flex;
         justify-content: center; 
@@ -97,14 +98,15 @@ h3 {
     .card {
     
         display: flex;
-        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
     
     .realisations {
       width: 30rem;
-      padding-left: 0px;
-      padding-right: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
       border-top-width: 0px;
       border-top-style: solid;
       border-bottom-width: 0px;
@@ -123,6 +125,7 @@ h3 {
     #realisations {
         display: flex;
         flex-direction: row;
+        
         
        
     }
@@ -181,4 +184,3 @@ h3 {
 }
 
 
-}
