@@ -1,8 +1,10 @@
+Bienvenue sur le site de Jonh DOE.
+
+Ceci constitue mon CV en ligne développé avec REACT et VS CODE.
+
+Mon site est hébergé par Github :
+
+Pour ouvrir correctement les documents, nous devrez procéder à un : NPM INSTALL puis NPM RUN DEV au sein de votre environnement de développement.
+
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
