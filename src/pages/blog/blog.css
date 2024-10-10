@@ -1,0 +1,40 @@
+/* For All devices */
+
+.blog {
+    font-size: 6vh;
+    display: flex;
+    flex-direction: column;
+   } 
+
+   .card {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+   }
+
+
+/* Mobile */
+@media (min-width: 300px) {
+
+
+.text {
+    font-size: 2vh;
+}
+
+}
+
+
+/*Tablette*/
+@media (min-width: 700px) {
+
+
+
+
+}
+
+/*Desktop*/
+@media (min-width: 1200px) {
+
+
+
+}

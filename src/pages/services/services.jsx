@@ -1,9 +1,17 @@
-const Services = () => {
-    return (
-        <div className="Services">
-            Mes Services
-        </div>
-    );
+import Header from "../home/header";
+import Services from "../services/main"
+import Footer from "../home/footer";
+
+function Myservices () {
+
+        return (
+        <>
+        
+        <Header/>
+        <Services/>
+        <Footer/>
+        </>
+);
 }
 
-export default Services;
+export default Myservices;

@@ -1,55 +1,39 @@
 /* For All devices */
 
 /* Mobile */
-@media (min-width: 400px) {
+@media (min-width: 300px) {
 
 #fond {
-    height: 15vh;
+    height: 20vh;
+    width: 150vh;
 }
 
 h2 {
     padding-top: 3vh;
-    margin-left: 1vh;
-    margin-right: 1vh;
-    font-size: 3.5vh;
+    font-size: 4vh;
     font-weight:510;
     display: flex;
-    justify-content: center; 
+    padding-left: 15vh;
 }
 
 h3 {
-    padding-top: 1vh;
-    font-size: 2.5vh;
+    padding-top: 3vh;
+    font-size: 2vh;
     display: flex;
     justify-content: center; 
     padding-bottom: 2vh;
-    padding-left: 5vh;
-    padding-right: 5vh;
+ 
 }
 
 .btn {
     background-color: white;
     color: #0d6efd;
-    width: 6vh;
+    width: 10vh;
 }
 
-.card {
-    display: flex;
-    align-items: center;
-    width: 65vh;
-}
-
-.Card.title {
-    font-size: 60vh;
-    font-weight: bold;
-}
-
-.card.text {
-    font-size: 2vh;
-}
 
 .realisations {
-  width: 30rem;
+  width: 20rem;
   padding-left: 0px;
   padding-right: 0px;
   border-top-width: 0px;
@@ -94,42 +78,21 @@ h3 {
         color: blue;
         width: 3vh;
     }
-    
-    .card {
-    
-        display: flex;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    
-    
-    .realisations {
-      width: 30rem;
-      padding-left: 20px;
-      padding-right: 20px;
-      border-top-width: 0px;
-      border-top-style: solid;
-      border-bottom-width: 0px;
-      border-bottom-style: solid;
-      display: flex;
-      align-items: center;
-    }
-
-
-.btn {
-        background-color: white;
-        color: blue;
-        width: 3vh;
-    }
-
-    #realisations {
-        display: flex;
-        flex-direction: row;
         
-        
-       
-    }
-    }
+.card {
+    display: flex;
+
+}
+
+#realisations {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    margin-left: 25vh;
+}
+
+
 
 }
     
@@ -137,7 +100,7 @@ h3 {
 @media (min-width: 1200px) {
 
     #fond {
-        height: 4vh;
+        height: 50vh;
     }
     
     h2 {
@@ -160,26 +123,10 @@ h3 {
     }
     
     .card {
-    
         display: flex;
-        align-items: center;
-        padding-left: 2vh;
-        width: 17vh;
-        
+        flex-direction: row;;
     }
 
-    .Card.title {
-        font-size: 30vh;
-    }
-
-    .card.text {
-        font-size: 2vh;
-    }
-
-#realisations {
-    display: flex;
-    flex-direction: row;
-}
 
 }
 
