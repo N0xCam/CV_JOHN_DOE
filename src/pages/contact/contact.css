@@ -1,0 +1,29 @@
+/* All devices */
+
+#contact {
+    border-width: 2vh;
+    border-style: solid;
+    border-color: blue;
+}
+
+#content {
+    background-color: white;
+}
+
+h2 {
+    font-size: 2vh;
+}
+
+p {
+    font-size: 2vh;
+}
+
+#btn {
+    background-color: blue;
+    color: white;
+    width: 20vh;
+}
+
+h3 {
+    font-size: 4vh;
+}

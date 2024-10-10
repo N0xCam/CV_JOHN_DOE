@@ -1,5 +1,6 @@
 /* For All devices */
 
+<<<<<<< HEAD
 /* Mobile */
 @media (min-width: 400px) {
 
@@ -171,3 +172,43 @@
     
     
     
+=======
+.blog {
+    font-size: 6vh;
+    display: flex;
+    flex-direction: column;
+   } 
+
+   .card {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+   }
+
+
+/* Mobile */
+@media (min-width: 300px) {
+
+
+.text {
+    font-size: 2vh;
+}
+
+}
+
+
+/*Tablette*/
+@media (min-width: 700px) {
+
+
+
+
+}
+
+/*Desktop*/
+@media (min-width: 1200px) {
+
+
+
+}
+>>>>>>> d75c2450fc9abf8fad8c00ce2ce31dc6c3261622

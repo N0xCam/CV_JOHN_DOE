@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 import ProgressBar from 'react-bootstrap/ProgressBar';
+=======
+import Header from "./header";
+import Home from "./main";
+import Footer from "./footer";
 
-const Home = () => {
+function MyHome () {
+>>>>>>> d75c2450fc9abf8fad8c00ce2ce31dc6c3261622
 
-    return (
+        return (
+        <>
         
+<<<<<<< HEAD
         <div className="home">
            
            <header id="Introduction">
@@ -57,3 +65,13 @@ const Home = () => {
 
 
 export default Home;
+=======
+        <Header/>
+        <Home/>
+        <Footer/>
+        </>
+);
+}
+
+export default MyHome;
+>>>>>>> d75c2450fc9abf8fad8c00ce2ce31dc6c3261622

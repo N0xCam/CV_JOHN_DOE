@@ -6,6 +6,7 @@
   width: 100;
 }
 
+<<<<<<< HEAD
 /* Home */
 
 
@@ -40,6 +41,91 @@ em {
 /* */
 /* Mobile */
 /* */
+=======
+/* Header */
+
+#Introduction {
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 60px;
+}
+
+
+/* Footer */
+footer {
+
+  display: flex;
+  flex-direction: row;  
+}
+
+.container {
+  display: flex;
+  margin-left: -2vh;
+}
+
+#brandfooter {
+  font-size: 2.5vh;
+  font-weight: bold;
+  display: flex;
+  
+}
+
+em {
+  display: flex;
+  margin-left: 5vh;
+}
+img {
+  width: 7vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.liens-utiles {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.liens-realisations {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2vh;
+}
+
+
+.liens-articles {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 2vh;
+}
+
+.copyright {
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  background-color: #1e1e1e;
+}
+
+/* /*
+/* Mobile */
+/* */
+@media (max-width: 768px) {
+>>>>>>> d75c2450fc9abf8fad8c00ce2ce31dc6c3261622
 
 @media (min-width: 400px) {
 
@@ -51,6 +137,7 @@ em {
     width: 150vh;
   }
 
+<<<<<<< HEAD
   #navbar {
     background-color: #1e1e1e ;
     height: 20vh;
@@ -58,12 +145,41 @@ em {
   }
 
   .navbar-toggler {
+=======
+/* header */
+
+.titleNav {
+  background-color: #1e1e1e;
+  width: 75vh;
+}
+
+#brand {
+  color: white;
+  font-weight: bold;
+}
+
+.basic {
+  width: 5vh;
+}
+
+/* Main */
+
+  #Introduction {
+    background-image: url("/src/assets/home-me.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vw;
+  }
+  
+  #Hello {
+>>>>>>> d75c2450fc9abf8fad8c00ce2ce31dc6c3261622
     color:white;
   }
 
 
   #brand {
     color: white;
+<<<<<<< HEAD
     font-size: 4vh;
     font-weight: bold;
     padding-right: 10vh;
@@ -80,10 +196,134 @@ em {
   display:flex;
   padding-left: 2vh;
   width: 100vh;
+=======
+    font-size: bold;
+}
+
+  #bouton {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mypresentation {
+    font-size: 2.2vh;
+    margin-left: 2vh;
+    
+  }
+
+  #about {
+    font-size: 2vh;
+    font-weight: 200;
+    display: flex;
+    margin-left: 2vh;
+    padding-top: 5vh;
+    border-bottom:solid green;
+    border-bottom: green;
+  }
+
+  p {
+    font-size: 2.5vh;
+    padding-left: 2vh;
+    padding-right: 10vh;
+  }
+
+  #skills {
+    width: 40vh;
+    display: flex;
+  }
+
+  #me {
+    width: 38vh;
+    padding-right: 3vh;
+  }
+
+  .progress {
+    width: 45vh;
+    padding-left: 7vh;
+
+  }
+
+/* Footer */
+
+#footer{
+  display: flex;
+  flex-direction: column;
+}
+
+#Name {
+  font-weight: bold;
+  display: flex;
+}
+
+#em {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  height: 10vh;
+  width: 10vh;
+}
+
+
+/*Tablette*/
+@media (min-width: 480px) {
+
+html {
+  justify-content: center;
+}
+
+* {
+  width: 110vw;
+}
+
+/* Header*/
+
+.titleNav {
+  background-color: #1e1e1e;
+  width: 110vh;
+  height: 6vh;
+}
+
+#brand {
+  color: white;
+  font-weight: bold;
+  display: flex;
+}
+
+.basic {
+  width: 5vh;
+}
+
+/* Main */
+
+#Introduction {
+  background-image: url("/src/assets/home-me.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vw;
+  width: 110vh;
+}
+
+#Hello {
+  color:white;
+  display:flex;
+  margin-top: 10vh;
+  justify-content:center;
+  font-size: 5vh;
+
+>>>>>>> d75c2450fc9abf8fad8c00ce2ce31dc6c3261622
 }
 
 .link:hover {
   color:white;
+<<<<<<< HEAD
+=======
+  display:flex;
+  justify-content:center;
+  font-size: 3vh;
+  font-size: bold;
+>>>>>>> d75c2450fc9abf8fad8c00ce2ce31dc6c3261622
 }
 
 #basic {
@@ -107,6 +347,7 @@ em {
   color: white;
 }
 
+<<<<<<< HEAD
 #btn {
   background-color: #0d6efd;
 }
@@ -133,9 +374,33 @@ p {
   padding-top: 2vh;
   display: flex;
  
+=======
+
+.mypresentation {
+  font-size: 2.2vh;
+  margin-left: 2vh;
+
 }
 
+p {
+  font-size: 2vh;
+  width: 40vh;
+
+}
+
+.colonnes {
+  display: flex;
+  width: 30vh;
+>>>>>>> d75c2450fc9abf8fad8c00ce2ce31dc6c3261622
+}
+
+h3 {
+  font-size: 6vh;
+}
+
+
 #skills {
+<<<<<<< HEAD
   width: 100vh;
   margin-left: 20vh;
 }
@@ -279,6 +544,136 @@ p {
 
   .link {
     font-size: 1.2vh;
+=======
+  width: 30vh;
+  margin-left: -15em;
+}
+
+#presentation {
+  display: flex;
+  flex-direction: row;
+}
+
+#about {
+  color: black;
+}
+
+#me {
+  padding-top: 2vh;
+  padding-left: 5vh;
+  width: 40vh;
+  height: 30vh;
+}
+
+#second {
+  display: flex;
+  flex-direction: column;
+  width: 40vh;
+
+}
+
+
+#skills2 {
+  margin-top: 20em;
+  margin-left: -29em;
+}
+}
+
+/* Footer */
+ 
+  a {
+    font-size: 0.7rem;
+  }
+
+  .liens-utiles {
+    padding-top: 30px;
+  }
+
+  /* Copyright */
+
+  .copyright {
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    background-color: #1e1e1e;
+  }
+
+
+/*Desktop*/
+@media (min-width: 992px) {
+
+  html {
+    justify-content: center;
+  }
+  
+  * {
+    width: 110vw;
+  }
+ 
+/* Header */
+
+.titleNav {
+  background-color: #1e1e1e;
+  width: 200vh;
+  height: 6vh;
+}
+
+#brand {
+  color: white;
+  font-weight: bold;
+  display: flex;
+}
+
+
+/* Main */
+
+  #Introduction {
+    background-image: url("/src/assets/home-me.png");
+    background-repeat: no-repeat;
+    height: 40vw;
+  }
+  
+  #Hello {
+    color:white;
+    display:flex;
+    margin-top: 26vh;
+    justify-content:center;
+    font-size: 6vh;
+  
+  }
+  
+  #Job {
+    display: flex;
+    color:white;
+    display:flex;
+    justify-content:center;
+    font-size: 4vh;
+    font-size: bold;
+  }
+  
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    width: 20vh;
+    height: 5vh;
+    font-size: 2vh;
+    background-color:dodgerblue;
+    color: white;
+    font-size: bold;
+  }
+  
+  #bouton {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #presentation {
+>>>>>>> d75c2450fc9abf8fad8c00ce2ce31dc6c3261622
     display: flex;
     flex-direction: column;
     align-content: left;
@@ -288,6 +683,7 @@ p {
 
   }
 
+<<<<<<< HEAD
   .link:hover {
     color: white;
   }
@@ -340,3 +736,27 @@ p {
 
 /* Footer */
 }
+=======
+  p {
+    width: 80vh;
+  }
+  
+  #skills {
+    width: 200vh;
+  }
+
+/* Footer */
+
+em {
+  display: flex;
+  align-items: center;
+}
+
+address {
+  margin-left: 35vh;
+}
+
+}
+
+
+>>>>>>> d75c2450fc9abf8fad8c00ce2ce31dc6c3261622

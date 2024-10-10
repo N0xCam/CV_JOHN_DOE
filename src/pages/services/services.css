@@ -1,0 +1,111 @@
+#fond {
+    background-image: url(/src/assets/realisations/background.jpg);
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Mobile */
+@media (min-width: 300px) {
+
+h2 {
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+
+h3 {
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    width: 30vh;
+    align-self: center;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 2vh;
+}
+
+#services {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-top: 6vh;
+}
+
+.img-article {
+    display: flex;
+    align-self: center;
+}
+
+p {
+    margin-left: 2vh;
+}
+
+}
+    
+    
+/*Tablette*/
+    @media (min-width: 700px) {
+    
+        h2 {
+            font-size: 2vh;
+            display: flex;
+            flex-direction: column;
+            padding-left: 0px;
+        }
+        
+        h3 {
+            font-size: 2vh;
+            display: flex;
+            flex-direction: column;
+            padding-left: 0px;
+            width: 30vh;
+
+        }
+        
+        h4 {
+            text-transform: uppercase;
+            font-weight: bold;
+            padding-top: 2vh;
+        }
+        
+        
+        article {
+            display: flex;
+            flex-direction: column;
+            padding-top: 6vh;
+        }
+        
+        .img-article {
+            display: flex;
+        }
+        
+    .services {
+        width: 20vh;
+        
+    }
+        
+
+        }
+        
+
+    
+
+    
+/*Desktop*/
+    @media (min-width: 1200px) {
+
+    }
+    
